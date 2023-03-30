@@ -1,1 +1,67 @@
 /* You can add global styles to this file, and also import other style files */
+
+body {
+  background: rgb(177, 222, 240);
+}
+
+header {
+  display: block;
+  border: solid black 2px;
+  background-color: lightgrey;
+  height: 100px;
+}
+
+h1 {
+  text-shadow: 2px 2px 5px green;
+  text-align: center;
+  vertical-align: center;
+}
+
+div.container {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+div.topcontainer {
+  position: absolute;
+  left: 15%;
+  width: 70%;
+  height: auto;
+  vertical-align: top;
+}
+
+div.middlecontainer {
+  position: absolute;
+  left: 15%;
+  width: 70%;
+  height: auto;
+  vertical-align: center;
+}
+
+div.bottomcontainer {
+  position: absolute;
+  left: 15%;
+  width: 70%;
+  height: auto;
+  vertical-align: bottom;
+}
+
+img.left {
+  display: block;
+  margin-left: 0px;
+  margin-right: auto;
+}
+
+img.right {
+  display: block;
+  margin-left: auto;
+  margin-right: 0px;
+}
+
+div.rootcontainer {
+  display: block;
+  width: calc(100% - 300px);
+  margin-left: 150px;
+  margin-right: auto;
+}
